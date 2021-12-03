@@ -11,18 +11,21 @@ body, html {
 
 body {
 	background: linear-gradient(150deg, rgb(210, 235, 255), rgb(115, 123, 223));
-    /* overflow: overlay; */
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
 .content {
-    border-radius: 3px;
-    padding: 1em;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    border-radius: 4px;
     margin: 150px auto;
     max-width: 1312px;
     min-height: 100%;
     background: #fff;
+}
+
+.content_container {
+    padding: 1em;
 }
 
 ::-webkit-scrollbar {
@@ -40,4 +43,27 @@ body {
 ::-webkit-scrollbar-track {
     z-index: 2;
     background: rgba(0, 0, 0, 0);
+}
+
+footer {
+    background:rgb(29, 29, 29);
+    box-shadow: inset 0px 8px 8px -5px rgb(0, 0, 0);
+    margin-top: -100px;
+}
+
+footer a{
+	color: rgb(173, 189, 255);
+	text-decoration: none; 
+}
+
+footer address {
+    color: #fff;
+	padding: 20px 0;
+    max-width: 1312px;
+    margin: 0 auto;
+	font-style: normal;
+}
+
+#address {
+	font-style: italic;
 }
