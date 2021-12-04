@@ -1,93 +1,159 @@
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body, html {
-	height: 100%;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 20px;
-}
-
-body {
-	background: linear-gradient(150deg, rgb(210, 235, 255), rgb(115, 123, 223));
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-.content {
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    border-radius: 4px;
-    margin: 50px auto 150px;
-    max-width: 1312px;
-    min-height: 100%;
-    background: #fff;
-}
-
-.content_container {
-    padding: 1em;
-}
-
-::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-    z-index: 2;
-}
-  
-::-webkit-scrollbar-thumb {
-    z-index: 2;
-    background: rgba(90, 90, 90, 0.6);
-    border-radius: 4px;
-}
-  
-::-webkit-scrollbar-track {
-    z-index: 2;
-    background: rgba(0, 0, 0, 0);
-}
-
-footer {
+.top_gallery {
     background:rgb(29, 29, 29);
-    box-shadow: inset 0px 8px 8px -5px rgb(0, 0, 0);
-    margin-top: -100px;
+    width: calc(100% + 40px);
+    position: relative;
+    top: -20px;
+    left: -20px;
 }
 
-footer a{
-	color: rgb(173, 189, 255);
-    transition: 0.5s;
-	text-decoration: none; 
+.galley_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 35px
 }
 
-footer a:hover{
-	color: rgb(105, 121, 189);
+.galley_block {
+    text-decoration: none;
+    overflow: hidden;
+    border-radius: 4px;
 }
 
-footer address {
+.galley_block img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.galley_block:hover img {
+    transform: scale(1.05);
+    filter: brightness(70%);
+}
+
+#block_1, #block_2 {
+    width: calc(50% - 15px);
+    height: 300px;
+}
+
+#block_3, #block_4, #block_5 {
+    width: calc(100% / 3 - 20px);
+    height: 300px;
+}
+
+.card_information {
     color: #fff;
-	padding: 20px 0;
+    position: relative;
     padding-left: 20px;
-    max-width: 1312px;
-    margin: 0 auto;
-	font-style: normal;
+    padding-right: 20px;
+    top: -35%;
+    height: 36%;
+    background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0));
 }
 
-#address {
-	font-style: italic;
+.card_title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card_description {
+    color: rgb(173, 173, 173);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1320px) {
+	.card_title {
+        font-size: 3vw;
+    }
+
+    .card_description {
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 1020px) {
-	footer {
+	.card_title {
+        font-size: 30px;
+    }
+
+    .card_description {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+	.card_title {
+        font-size: 26px;
+    }
+
+    .card_description {
+        transform: translateY(-5px);
+        font-size: 20px;
+    }
+
+    #block_1, #block_2 {
+        width: calc(50% - 15px);
+        height: 200px;
+    }
+    
+    #block_3, #block_4, #block_5 {
+        width: calc(100% / 3 - 20px);
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #block_1, #block_2, #block_3, #block_4, #block_5 {
+        width: 100%;
+        height: 200px;
+    }
+}
+
+.main_description {
+    margin: 10px 20px;
+}
+
+.site_title {
+    font-family: 'Racing Sans One', cursive;
+}
+
+.site_tagline {
+    line-height: 1.5em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.main_description p{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+@media screen and (max-width: 1020px) {
+	.main_description p {
         font-size: 2vw;
     }
 }
 
+@media screen and (max-width: 870px) {
+	.main_description p {
+        font-size: 2.5vw;
+    }
+}
+
 @media screen and (max-width: 640px) {
-	footer {
+	.main_description p {
         font-size: 3vw;
     }
 }
 
+
 @media screen and (max-width: 480px) {
-	footer {
+	.main_description p {
         font-size: 4vw;
     }
 }
