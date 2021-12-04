@@ -1,4 +1,4 @@
-function button_clicked(x) {
+function menu_button_clicked(x) {
 	x.classList.toggle("change");
     document.querySelector(".header_container nav").classList.toggle("nav_change");
 	if (document.getElementsByClassName("nav_list")[0].style.display == "flex") {

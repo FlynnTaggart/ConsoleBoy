@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../css/article.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../js/header.js" type="text/javascript"></script>
+    <script src="../js/image_slider.js" type="text/javascript"></script>
+	<title>ConsoleBoy</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+		<div class="header_container">
+			<div>
+				<a class="logo" href="../index.html"><img src="../img/logo_white.png"></a>
+				<div class="toggle_menu" onclick="menu_button_clicked(this)">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+			</div>
+			<nav>
+				<ul class="nav_list">
+					<li><a href="../index.html">Главная</a></li>
+					<li><a href="../articles.html">Статьи</a></li>
+					<li><a href="../news.html">Новости</a></li>
+					<li><a href="../random.html">Случайная статья</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="content">
+		<div class="content_container">
+			<article>
+				<h1>Xbox Game Studios</h1>
+				<h3>Игровое подразделение Microsoft – от Halo до Xbox Series X</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img src="../img/photos/xbox/XboxGameStudiosLogo.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../img/photos/xbox/XboxGameStudios.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../img/photos/xbox/SeriesXS.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        Xbox Game Studios (ранее Microsoft Studios и Microsoft Game Studios) — дочерняя компания Microsoft, разрабатывающая и издающая компьютерные игры для игровых консолей серии Xbox и персональных компьютеров под управлением Windows. Xbox Game Studios издаёт как игры собственной разработки, например, игры студий Rare и 343 Industries, так и игры сторонних разработчиков — Epic Games и Remedy Entertainment.
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        Давайте кратко пройдемся по знаковым событиям в жизни компании:
+                    </p>
+                    <p>
+                        Первоначально Microsoft Game Studios действовала исключительно под торговой маркой Microsoft, но в 1999 году она изменила свое название на Microsoft Game Division. На тот момнет она занималась только играми на ПК.
+                    </p>
+                    <p>
+                        В 2000 году компания объявила о своем расширении до игровых консолей и объявила о разработке игровой консоли Xbox.
+                    </p>
+                    <p>
+                        В 2001 году Microsoft Studios выпустила первую игровую консоль Microsoft – Xbox, и изменила свое название на Microsoft Game Studios, которое использовалось до 2011 года, когда название опять сменили на Microsoft Studios.
+                    </p>
+                    <p>
+                        В августе 2002 года Microsoft Studios приобрела Rare у Nintendo и братьев Стэмпер, которым принадлежало 49 и 51% акций Rare соответственно. Двумя годами позже, в 2004 году, Microsoft Studios покинул Эд Фрайс, который, в частности, руководил выпуском серий игр Halo и Age of Empires.
+                    </p>
+                    <p>
+                        В 2005 году Хиронобу Сакагути, создатель серии Final Fantasy, присоединился к Microsoft Studios для разработки новой компьютерной ролевой игры для Xbox 360. В том же году к Microsoft Studios присоединились Ёсики Окамото (из Game Republic) и Тэцуя Мизугучи (из Q Entertainment).
+                    </p>
+                    <p>
+                        В 2006 году Microsoft Studios приобрела Lionhead Studios и вложила средства в выпуск ряда выпусков для Xbox 360. Microsoft Studios также приобрела Massive Inc., специализирующуюся на рекламе в играх.
+                    </p>
+                    <p>
+                        В ноябре 2018 года компания приобрела inXile Entertainment и Obsidian Entertainment.
+                    </p>
+                    <p>
+                        В феврале 2019 года компания сменила название свое на Xbox Games Studio.
+                    </p>
+                    <p>
+                        В 2021 году в рамках судебного процесса между Epic Games и Apple было сообщено, что Microsoft никогда не получала прибыли от продажи игровых консолей, однко консоли все равно будут продаваться в убыток компании.
+                    </p>
+                    <h4>Консоли Xbox</h4>
+                    <ul>
+                        <li><div><a href="">Xbox</a></div></li>
+                        <li><a href="">Xbox 360</a></li>
+                        <li><a href="">Xbox One</a></li>
+                        <li><a href="">Xbox Series X/S</a></li>
+                    </ul>
+                </div>
+			</article>
+		</div>
+	</div>
+	<footer>
+		<address>
+			<p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+			<p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+			<p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+		</address>
+	</footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>
