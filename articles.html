@@ -7,10 +7,30 @@
 	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="css/index.css">
     <link rel="stylesheet" type="text/css" href="css/header.css">
+    <link rel="stylesheet" type="text/css" href="css/articles.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
     <script src="js/header.js" type="text/javascript"></script>
+    <script src="js/article_picker.js" type="text/javascript"></script>
+    <script src="js/article_list.js" type="text/javascript"></script>
+	<script id="article_to_create" type="text/html">
+		<div class="article_card">
+			<img class="article_image" src="{SRC}">
+			<a class="article_information" href="{HREF}">
+				<h2 class="article_title">{TITLE}</h2>	
+				<h3 class="article_description">
+					{DESC}
+				</h3>
+			</a>
+		</div>
+	</script>
+	<script id="block_to_create" type="text/html">
+		<h1>{BLOCKTITLE}</h1>
+		<div class="block_articles" id="{BLOCKID}">
+			
+		</div>
+	</script>
 	<title>ConsoleBoy</title>
 </head>
 <body onresize="resize_check()">
@@ -36,7 +56,8 @@
 	</header>
 	<div class="content">
 		<div class="content_container">
-			
+			<div class="articles_container">
+			</div>
 		</div>
 	</div>
 	<footer>

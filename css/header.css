@@ -157,13 +157,17 @@ header {
 		flex-direction: column;
 	}
 
+	.nav_list li {
+		padding: 15px;
+	}
+
 	@keyframes open_menu{
 		0%{
 			height: 0px;
 		}
 	
 		100% {
-			height: 14.5em;
+			height: 13em;
 		}
 	}
 }

@@ -64,6 +64,7 @@ footer a:hover{
 footer address {
     color: #fff;
 	padding: 20px 0;
+    padding-left: 20px;
     max-width: 1312px;
     margin: 0 auto;
 	font-style: normal;
@@ -72,3 +73,22 @@ footer address {
 #address {
 	font-style: italic;
 }
+
+@media screen and (max-width: 1020px) {
+	footer {
+        font-size: 2vw;
+    }
+}
+
+@media screen and (max-width: 640px) {
+	footer {
+        font-size: 3vw;
+    }
+}
+
+@media screen and (max-width: 480px) {
+	footer {
+        font-size: 4vw;
+    }
+}
+

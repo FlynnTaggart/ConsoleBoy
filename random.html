@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/article_list.js" type="text/javascript"></script>
+    <script>
+        window.onload = function () {
+            var page_list = new Array();
+            for(var i = 0; i < article_list.length; ++i){
+                for(var j = 0; j < article_list[i][1].length; ++j){
+                    page_list.push(article_list[i][1][j]);
+                }
+            }
+            window.location = page_list[Math.floor(page_list.length * Math.random())];
+        };
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

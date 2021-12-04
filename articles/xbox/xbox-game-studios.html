@@ -4,22 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" type="image/x-icon" href="../img/favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="../css/index.css">
-    <link rel="stylesheet" type="text/css" href="../css/header.css">
-    <link rel="stylesheet" type="text/css" href="../css/article.css">
+	<link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/index.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
-    <script src="../js/header.js" type="text/javascript"></script>
-    <script src="../js/image_slider.js" type="text/javascript"></script>
-	<title>ConsoleBoy</title>
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+	<title>Xbox Game Studios</title>
 </head>
 <body onresize="resize_check()">
     <header>
 		<div class="header_container">
 			<div>
-				<a class="logo" href="../index.html"><img src="../img/logo_white.png"></a>
+				<a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
 				<div class="toggle_menu" onclick="menu_button_clicked(this)">
 					<div class="bar1"></div>
 					<div class="bar2"></div>
@@ -28,10 +28,10 @@
 			</div>
 			<nav>
 				<ul class="nav_list">
-					<li><a href="../index.html">Главная</a></li>
-					<li><a href="../articles.html">Статьи</a></li>
-					<li><a href="../news.html">Новости</a></li>
-					<li><a href="../random.html">Случайная статья</a></li>
+					<li><a href="../../index.html">Главная</a></li>
+					<li><a href="../../articles.html">Статьи</a></li>
+					<li><a href="../../news.html">Новости</a></li>
+					<li><a href="../../random.html">Случайная статья</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -39,8 +39,8 @@
 	<div class="content">
 		<div class="content_container">
 			<article>
-				<h1>Xbox Game Studios</h1>
-				<h3>Игровое подразделение Microsoft – от Halo до Xbox Series X</h3>
+				<h1 class="article_title">Xbox Game Studios</h1>
+				<h3 class="article_description">Игровое подразделение Microsoft – от рядового отдела до корпорации</h3>
                 <div class="image_slider">
                     <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
                     <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
@@ -54,13 +54,13 @@
                         <!-- Change width based on images count-->
                         <div class="images_container" style="width: calc(3 * 100%);">
                             <div class="image_container">
-                                <img src="../img/photos/xbox/XboxGameStudiosLogo.jpg" onclick="view_image(this)">
+                                <img class="title_image" src="../../img/photos/xbox/XboxGameStudiosLogo.jpg" onclick="view_image(this)">
                             </div>
                             <div class="image_container">
-                                <img src="../img/photos/xbox/XboxGameStudios.jpg" onclick="view_image(this)">
+                                <img src="../../img/photos/xbox/XboxGameStudios.jpg" onclick="view_image(this)">
                             </div>
                             <div class="image_container">
-                                <img src="../img/photos/xbox/SeriesXS.jpg" onclick="view_image(this)">
+                                <img src="../../img/photos/xbox/SeriesXS.jpg" onclick="view_image(this)">
                             </div>
                         </div>
                     </div>
@@ -101,8 +101,8 @@
                         В 2021 году в рамках судебного процесса между Epic Games и Apple было сообщено, что Microsoft никогда не получала прибыли от продажи игровых консолей, однко консоли все равно будут продаваться в убыток компании.
                     </p>
                     <h4>Консоли Xbox</h4>
-                    <ul>
-                        <li><div><a href="">Xbox</a></div></li>
+                    <ul class="links">
+                        <li><a href="xbox.html">Xbox</a></li>
                         <li><a href="">Xbox 360</a></li>
                         <li><a href="">Xbox One</a></li>
                         <li><a href="">Xbox Series X/S</a></li>
