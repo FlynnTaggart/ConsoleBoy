@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>PlayStation 3</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">PlayStation 3</h1>
+                <h3 class="article_description">Детство второкурсника</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/sony/ps_3.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_3_all.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_3_games.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        PlayStation 3 — игровая приставка седьмого поколения, третья в семействе игровых систем PlayStation (не считая PlayStation Portable). С помощью PS3 можно играть, смотреть фильмы, слушать музыку, отправлять электронную почту и просматривать веб-страницы. С самого момента выпуска приставкой поддерживается большинство игр для консолей предыдущего поколения, PlayStation и PlayStation 2. Главными конкурентами консоли являются Xbox 360 от Microsoft и Wii от Nintendo
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        После выхода популярных игровых приставок PlayStation и PlayStation 2 создание новой модели было вопросом времени. Первые слухи о консоли следующего поколения появились в 2004 году, однако конкретных сведений Sony не давала до весны 2005 года.
+                    </p>
+                    <p>
+                        Впервые PS3 была официально представлена 16 мая 2005 года в ходе конференции Sony на выставке Electronic Entertainment Expo (E3). На выставке находился только макет, предварительную рабочую версию приставки компания представила на Tokyo Game Show (TGS) 2005 года. В мае 2006 года на конференции Sony, прошедшей в рамках E3 2006, была озвучена информация о цене приставки, началах продаж, а также был представлен новый игровой контроллер Sixaxis. Впервые PS3 была доступна для тестирования на TGS 2006, где посетители могли оценить несколько игр на новой приставке.
+                    </p>
+                    <p>
+                        Выход PS3 в Японии состоялся 11 ноября 2006 года, 17 ноября приставка появилась в Северной Америке. Лишь в марте 2007, из-за нехватки производственных мощностей, приставка появилась в Европе, а потом в России.
+                    </p>
+                    <p>
+                        После запуска консоли 11 ноября выяснилось, что некоторые игры для PS и PS2 некорректно работают на новой приставке. Так, наблюдались проблемы со звуком и изображением в играх Final Fantasy и Gran Turismo. Sony объявила, что ошибки будут устранены с выходом обновления программного обеспечения PS3.
+                    </p>
+                    <p>
+                        Первоначально существовало две конфигурации системы, главное различие которых заключалось в объёме жёсткого диска: 20 Гб в более дешёвой версии и 60 Гб — в полной комплектации. Модель с 20 Гб была относительно популярна в Японии, однако в Северной Америке её продажи были прекращены 11 апреля 2007 из-за небольшого спроса. 9 июля 2007 года Sony объявила начало продаж модели с жёстким диском на 80 Гб в Северной Америке в августе 2007 года. Также, 5 октября 2007 появилась версия с жёстким диском на 40 Гб, не поддерживающая игры от Sony PlayStation 2 (исключением были первые 7 партий (80 тыс. ед.) Европейского региона) и без встроенного картридера. 20 августа 2008 года появилось обновление этой версии с жёстким диском на 80 Гб. Она комплектуется геймпадом DualShock 3 и, как и предыдущая модель на 40 Гб, имеет всего 2 разъёма USB и не поддерживает формат PlayStation 2.
+                    </p>
+                    <p>
+                        Продажи консоли с диском на 40, 60 и 80 Гб в России официально прекращены. Таким образом, на российском рынке остались лишь slim и super slim версии консоли — с жёсткими дисками на 120, 160, 250 и 320 Гб, а также версия с флеш-памятью на 12 Гб (с подключаемым жёстким диском на 250 Гб).
+                    </p>
+                    <p>
+                        «Тонкая» (Slim) модель PS3, спустя некоторое время после появления предварительных слухов о ней, была анонсирована 18 августа 2009 года на конференции gamescom как PS3 CECH-2000. В этой модели использован жёсткий диск на 120 Гб, она на треть меньше, на треть легче и потребляет на треть меньше энергии. Процессор был переведён на 45-нм техпроцесс, система охлаждения переработана. Новая модель была выпущена в продажу в Северной Америке 1 сентября, 3 сентября — в Японии, Австралии и Новой Зеландии.
+                    </p>
+                    <p>
+                        Появление в магазинах PS3 Slim вызвало огромный всплеск интереса к консоли Sony. Так, за первые два дня продаж оригинальной PS3 в Японии было раскуплено 88 тыс. экземпляров приставки, в то время как PS3 Slim за три дня разошлась в количестве, превышающем 150 тыс. штук. Из Великобритании поступали схожие данные — аналитики отмечали рост продаж на 99 %. За первые 3 недели было продано более миллиона экземпляров PS3 Slim.
+                    </p>
+                    <p>
+                        28 сентября 2012 года вышла обновлённая версия PS3 Super Slim. Она на 20 % меньше и на 25 % легче предыдущей Slim-версии. Новая версия оснащается жёстким диском объёмом 250 или 500 Гб, либо твердотельным накопителем объёмом 12 Гб.
+                    </p>
+                    <h4>Технические характеристики</h4>
+                    <p>
+                        <ul>
+                            <li>Процессор: восьмипоточный процессор Cell Broadband Engine с тактовой частотой 3,2 ГГц</li>
+                            <li>Графический процессор: RSX с 550 МГц.</li>
+                            <li>Оперативная память: 256 Мб Rambus XDR DRAM.</li>
+                            <li>Вес:  5 кг.</li>
+                            <li>Размеры: 290×60×230 мм. </li>
+                        </ul>
+                    </p>
+                    <h4>Игровое подразделение Sony</h4>
+                    <ul class="links">
+                        <li><div><a href="sony-computer-ent.html">Sony Interactive Entertainment</a></div></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

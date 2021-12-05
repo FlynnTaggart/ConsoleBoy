@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>PlayStation 1</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">PlayStation 1</h1>
+                <h3 class="article_description">Бум 3D графики</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/sony/ps_1.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_1_gamepad_1.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_1_games.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        PlayStation — игровая приставка пятого поколения, разработанная компанией Sony Computer Entertainment под руководством Кэна Кутараги. Релиз консоли состоялся 3 декабря 1994 года в Японии, в США приставка появилась 9 сентября 1995 года, а в Европе — 29 сентября 1995 года. Консоль является первой игровой системой в линейке PlayStation. В 2000 году вышла обновлённая версия консоли под названием PSone, которая отличалась от оригинальной PlayStation значительно меньшим размером. Приставка оказалась очень популярной, обеспечив Sony прорыв в игровой индустрии, где до того момента безраздельно властвовали Nintendo и Sega.
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        История PlayStation уходит корнями в 1988 год. Nintendo пыталась использовать технологию floppy дисков в Famicom, но с этим возникли проблемы. Магнитные дискеты оказались малопрочными и легко копируемыми. Таким образом, Nintendo сразу же заинтересовалась CD-ROM / XA, разработанных Sony и Philips. Этот расширенный формат CD-ROM объединял аудио, видео и компьютерные данные и позволял использовать их одновременно. Nintendo обратились к Sony с просьбой разработать расширение CD-ROM для Super Nintendo Entertainment System, известное как «SNES-CD».
+                    </p>
+                    <p>
+                        Sony также планировали разработать свою консоль под брендом Sony, которая была бы совместима с Nintendo, но также лучше подходила бы в качестве домашнего развлекательного центра. Новая консоль будет использовать как картриджи SNES, так и новый формат компакт-дисков. Это укрепило положение Sony на рынке видеоигр, несмотря на лидирующую позицию Nintendo.
+                    </p>
+                    <p>
+                        «SNES-CD» должена была быть представлена на выставке Computer Electronics Show в июне 1991 года. Хироши Ямаути из Nintendo обнаружил, что первоначальное соглашение между Nintendo и Sony в 1988 году предоставило Sony полный контроль над играми, выпущенными в формате компакт-дисков SNES. Он пришел в ярость и нашел соглашение совершенно невозможным; в то же время он тайно отменил все планы Nintendo и Sony по выпуску «SNES-CD». Таким образом, на выставке CES не было отмечено никакого соглашения о сотрудничестве, но председатель Nintendo Говард Линкольн вышел на сцену и сообщил, что теперь они сотрудничают с Philips. От всей работы, проделанной с Nintendo и Sony, пришлось отказаться. Линкольн и Минору Аракава прилетели в Европу в штаб-квартиру Philips и образовали другой альянс, в рамках которого Nintendo могла получить лучшую лицензию на оборудование, производимое Philips.
+                    </p>
+                    <p>
+                        Объявление Nintendo было шокирующим. Это стало сюрпризом для посетителей выставки (Sony только что накануне вечером представили совместный проект под названием Play Station), и японская аудитория сочла это мошенничеством: в японской деловой культуре это было неслыханно, отклонить соглашение с соотечественницей и ухать в Еворпу.
+                    </p>
+                    <p>
+                        После краха совместного проекта Sony сначала подумали о приостановке исследовательского проекта, но в конце концов решила воспользоваться уже проделанной работой и доработать продукт до готовой консоли. В то время Nintendo подали иск, в котором утверждалось, что Nintendo имеет права на название, и выпуск должен быть заблокирован. Sony выиграли суд. В октябре 1991 года, наконец, были выпущены первые версии «Sony Play Station». По оценкам, было изготовлено всего около 200 таких устройств. В конце 1992 года Nintendo и Sony пришли к соглашению, что Sony Play Station будет поддерживать игры для SNES.
+                    </p>
+                    <p>
+                        Однако в этот момент Sony заметили, что технология SNES устаревает и скоро появится новое поколение игровых автоматов. Таким образом, они полностью изменили дизайн Play Station в начале 1993 года, когда была прекращена поддержка SNES и был удален пробел из названия. Sony справедливо предсказали, что будущее игровой графики будет за полигонами, а не за спрайтами, и PlayStation стала первой игровой консолью, разработанной для настоящей 3D-графики. С выпуском консоли чип, разработанный Toshiba, стал известен как графический процессор (GPU).
+                    </p>
+                    <p>
+                        PlayStation - один из самых долгоживущих продуктов в истории игровой индустрии; устрйоство выпускалось более 11 лет. 23 марта 2006 года Sony объявила о прекращении производства PlayStation One. К 18 мая 2004 года Sony продала по всему миру 100 миллионов консолей PlayStation и PSone.
+                    </p>
+                    <p>
+                        Консоль была очень популярна и породила так называемое «поколение плейккари». Самыми известными играми на PlayStation были Tomb Raider , Final Fantasy VII , Resident Evil , Tekken , Ridge Racer , WipEout , Gran Turismo , Crash Bandicoot , Spyro и Metal Gear Solid .
+                    </p>
+                    <h4>Технические характеристики</h4>
+                    <p>
+                        <ul>
+                            <li>Частота процессора: 33 МГц</li>
+                            <li>Графический процессор: 233 МГц Nvidia NV2A (модифицированная версия чипа GeForce 3).</li>
+                            <li>Оперативная память: 2 Мб.</li>
+                            <li>Вес: 560 г.</li>
+                            <li>Размеры: 193x38x144 мм.</li>
+                        </ul>
+                    </p>
+                    <h4>Игровое подразделение Sony</h4>
+                    <ul class="links">
+                        <li><div><a href="sony-computer-ent.html">Sony Interactive Entertainment</a></div></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

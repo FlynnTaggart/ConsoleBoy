@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>PlayStation 4</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">PlayStation 4</h1>
+                <h3 class="article_description">Победное восьмое поколение</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/sony/ps_4.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_4_all.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_4_games.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        PlayStation 4 — игровая приставка восьмого поколения, выпускаемая японской компанией Sony. PlayStation 4 входит в семейство игровых приставок PlayStation и была выпущена на смену PlayStation 3 — предыдущей домашней игровой консоли той же компании. Официальный анонс PlayStation 4 состоялся на конференции PlayStation Meeting 2013 в феврале 2013 года, продажи начались в ноябре 2013 года в США, Европе, Южной Америке, России и Австралии и в феврале 2014 года в Японии. Осенью 2016 года Sony выпустила две новые аппаратные версии приставки: PlayStation 4 Slim, обладающую уменьшенными габаритами, и PlayStation 4 Pro, оснащённую более мощными основным и графическим процессором с расчётом на возможность вывода изображения и потокового видео в разрешении 4K.
+                    </p>
+                    <p>
+                        В отличие от своей предшественницы PlayStation 3, основанной на микропроцессорной архитектуре Cell, приставка использует гибридный процессор компании AMD на основе x86-64 пиковой производительностью 1,84 терафлопс. Входящий в комплект игровой контроллер DualShock 4 примечателен наличием встроенного тачпада. Консоль работает под управлением операционной системы Orbis, являющейся модифицированной версией FreeBSD 9.0. Приставка позиционируется компанией именно как игровое устройство, а не как домашний медиацентр. На январь 2020 года по всему миру было продано 106 миллионов консолей PlayStation 4 и 1,15 миллиарда копий игр для них.
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        Разработка консоли с официальным кодовым названием «Jedai» началась в 2008 году. Функции ведущего архитектора взял на себя американский разработчик игр и программист Марк Черни.
+                    </p>
+                    <p>
+                        Официальная презентация PlayStation 4 проходила на фоне убытков Sony с 2008 года. Компания отреагировала несколькими мерами по реструктуризации и увольнениями 1 апреля 2012 года давний директор PlayStation Казуо Хираи сменил уходящего генерального директора Говарда Стрингера. Тем не менее, рейтинговое агентство Fitch понизило кредитный рейтинг компании до «ВB» в ноябре 2012 г. (ярлык для спекулятивных, возможно, убыточных вложений в облигации). Таким образом, успех новой консоли имел большое значение для будущего всей компании.
+                    </p>
+                    <p>
+                        В начале 2013 г. точные технические характеристика стали доступны в Интернете из-за утечки. Эти данные позже в значительной степени подтвердились. Примерная форма контроллера также была известна с 14 февраля 2013 года, при этом появившиеся изображения были записью прототипа, который еще не был окончательным. Ранее уже ходили слухи о преемнике PlayStation 3.
+                    </p>
+                    <p>
+                        31 января 2013 года Sony опубликовала в официальном блоге PlayStation тизер под названием «See the Future», в котором объявила о встрече PlayStation 20 февраля 2013 года. Конференция проходила в Манхэттенском центре в Нью-Йорке . Хотя фактический повод события оставался неизвестным до самого начала, пресса ожидала анонса следующей  консоли. Sony и другие сторонние разработчики продемонстрировали технологии, которые должны подтвердить производительность новой консоли, а также будущих игр. Что удивило многих, так это заявленное использование 8  гигабайт памяти GDDR5, что было дорого в то время. Ранее эксперты исключили такой сценарий из соображений стоимости. Контроллер DualShock 4 был показан, но не был показан дизайн самой приставки, так как он еще не был завершен на тот момент. Релиз консоли был объявлен в четвертом квартале 2013 года.
+                    </p>
+                    <p>
+                        После объявления акции Sony немного упали примерно на 1,77 процента. Рейтинговое агентство Fitch публично выразило сомнение в том, что консоль может изменить текущий рейтинговый статус компании. В прессе особенно критиковалось, что Sony не представила корпус PS4, а значит, и саму консоль. Напротив, финансовая и консалтинговая компания Wedbush Securities была впечатлена презентацией и высоко оценила акцент на играх. В целом идея привлекла большое внимание средств массовой информации. Официальный тизер PS4 стал самым просматриваемым видео на YouTube в феврале, запись конференции даже стала самым просматриваемым видео 2013 года.
+                    </p>
+                    <p>
+                        Корпус консоли был представлен на выставке Electronic Entertainment Expo 2013 в Лос-Анджелесе. Спустя всего несколько часов после появления консоли Microsoft была объявлена цена консоли PlayStation 4 в 399,99 долларов США, что на 100 долларов дешевле ее конкурента — Xbox One. Sony также использовала возможность агрессивно высказаться в пользу возможности автономной работы и свободной торговли использованными играми.
+                    </p>
+                    <p>
+                        PlayStation 4 наконец-то была впервые выпущена в США в середине ноября 2013 года. Несколько недель спустя последовали Европа (конец ноября), большая часть Азии и Австралия. Sony опубликовала его в основном одновременно с Microsoft.
+                    </p>
+                    <p>
+                        Через две недели после выхода на рынок продажи были значительно выше, чем у предыдущей консоли за тот же период. Кроме того, устройство было распродано много где, потому что Sony не могла удовлетворить высокий спрос. Полные поставки по всей стране были осуществлены Sony только в начале лета 2014 года. Первоначальный успех продаж был обусловлен, главным образом, сравнительно низкой ценой и длительным жизненным циклом предыдущей консоли.
+                    </p>
+                    <p>
+                        В июле 2015 года PlayStation 4, по оценкам, с долей мирового рынка более 50%, безусловно, была коммерчески самой успешной консолью восьмого поколения. В Европе их рыночная доля в то время составляла от 70 до 90 процентов.
+                    </p>
+                    <h4>Технические характеристики</h4>
+                    <p>
+                        <ul>
+                            <li>Процессор: AMD APU 1,6 ГГц (8 ядер) x86-64 архитектура (2,1 ГГц на PS4 Pro).</li>
+                            <li>Графический процессор: AMD Radeon GCN (Graphics Core Next). Встроен в APU.</li>
+                            <li>Оперативная память: GDDR5: 8GB + DDR3: 256 MB</li>
+                            <li>Вес:  PS4 - 2,8 кг, PS4 Pro - 3,3 кг, Ps4 Slim - 2,1 кг.</li>
+                            <li>Размеры: PS4 - 27×5,3×30 см, PS4 Pro - 29×5,5×32 см, Ps4 Slim - 26×4×29 см. </li>
+                        </ul>
+                    </p>
+                    <h4>Игровое подразделение Sony</h4>
+                    <ul class="links">
+                        <li><div><a href="sony-computer-ent.html">Sony Interactive Entertainment</a></div></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

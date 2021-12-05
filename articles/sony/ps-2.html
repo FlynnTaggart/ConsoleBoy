@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>PlayStation 2</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">PlayStation 2</h1>
+                <h3 class="article_description">Самая продаваемая консоль</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/sony/ps_2.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_2_inner.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_2_games.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        PlayStation 2 — вторая игровая приставка, выпущенная компанией Sony, наследница PlayStation. О начале разработки было объявлено в марте 1999 г., продажа консоли в Японии началась 4 марта 2000 г., в Северной Америке — 26 октября 2000 г., в Европе — 24 ноября 2000 года, в России — 7 ноября 2002 года.
+                    </p>
+                    <p>
+                        Игровая приставка стала наиболее быстро продаваемой и самой популярной игровой консолью в истории. На третий квартал 2011 года в мире продано почти 155 миллионов экземпляров PS2.
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        «Отцом» PlayStation называют Кэна Кутараги, который стоял во главе группы, занятой разработкой и выпуском на рынок сначала PlayStation (в 1994 году), а затем PlayStation 2, PlayStation Portable и PlayStation 3.
+                    </p>
+                    <p>
+                        Кэн Кутараги на презентации PlayStation 2 сказал, что он и его компания не смогли гарантировать успешный запуск, в отличие от Nintendo. Первый год выпуска Sony столкнулась с серьёзными проблемами, связанными с невысокими объёмами производства приставки на заводах, а также с постоянной нехваткой приставок в розничной сети. К концу 2000 года приставку смогли приобрести лишь несколько миллионов человек. Популярным способом быстрого получения приставки стало приобретение её на интернет-аукционах, таких как eBay. Успешное начало продаж консоли было обеспечено силой бренда Sony, а также обратной совместимостью с предыдущей моделью, что позволило продать 900 тыс. приставок только за первую неделю продаж в Японии.
+                    </p>
+                    <p>
+                        Одним из наиболее заметных особенностей рекламной кампании стал рекламный ролик «PS9», который изображал события так, что выпуск PlayStation 2 является очередным шагом к финальной, 9-й версии приставки. Тот же ролик использовался и в рекламной кампании PlayStation Portable.
+                    </p>
+                    <p>
+                        Многие аналитики предсказывали трёхстороннее соперничество между PlayStation 2 и её конкурентами — Microsoft Xbox и Nintendo GameCube. Однако, выход нескольких игр-блокбастеров в сезон рождественских праздников 2001 года дал PlayStation 2 сильный импульс, достаточный для того, чтобы она оторвалась от конкурентов.
+                    </p>
+                    <p>
+                        Хотя в первые годы Sony не уделяла большого внимания онлайн-играм, ситуация изменилась после выхода Xbox, в которой эта возможность была изначально. Sony адаптировалась к этому в конце 2002 года, выпустив несколько популярных игр (таких как SOCOM: U.S. Navy SEALs) с поддержкой многопользовательского онлайн-режима. Sony активно рекламировалась и её онлайн-модель была поддержана со стороны Electronic Arts. В Sony, как и в Nintendo, поздно задумались о поддержке онлайн-игр. Хотя обе эти фирмы пошли по пути использования для таких игр децентрализованной модели, когда ответственность за предоставление игровых серверов лежит на разработчике, тем не менее, попытка Sony обеспечить эту возможность стала одним из ключевых пунктов в успехе продаж PlayStation 2.
+                    </p>
+                    <p>
+                        В сентябре 2004 года, перед выпуском Grand Theft Auto: San Andreas (лучше всего продававшейся игры новогоднего сезона 2004 года) Sony представила новую, уменьшенную версию приставки. При подготовке к запуску продаж новой модели (SCPH-70000), летом 2004 года Sony остановила производство старой (SCPH-5000x), чтобы на складах каналов распространения приставки опустели текущие запасы. Позже в отдельных городах это привело к задержке с продажами новой модели. Например, так произошло в Великобритании из-за того, что российский нефтяной танкер застрял в Суэцком канале, заблокировав корабль из Китая с грузом приставок PlayStation 2, предназначенных для Великобритании; в течение одной из недель ноября, продажи приставки в этой стране составили 6000 экземпляров, при 70000 продаж за предыдущую неделю. Дефицит поставок ощущался также в Северной Америке в канун Рождества.
+                    </p>
+                    <h4>Технические характеристики</h4>
+                    <p>
+                        <ul>
+                            <li>Процессор: Emotion Engine с частотой 299 Мгц.</li>
+                            <li>Графический процессор: Graphics Synthesizer с 147 МГц.</li>
+                            <li>Оперативная память: 32 Mбайт с пропускной способностью в 3,2 ГБ.</li>
+                            <li>Звук: 48-канальный звук с частотой дискретизации 44,1 либо 48 КГц . </li>
+                            <li>Вес: slim версия (V12 — V15)  - около 900 г, slim версия (V16) - около 600 г, slim версия (V17) - около 720 г.</li>
+                           <li>Размеры: slim версия (V12 — V15) 230×28×152 мм.</li>
+
+                        </ul>
+                    </p>
+                    <h4>Игровое подразделение Sony</h4>
+                    <ul class="links">
+                        <li><div><a href="sony-computer-ent.html">Sony Interactive Entertainment</a></div></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

@@ -2,11 +2,19 @@
 
 let article_list = [
     ["Xbox", [
+        "articles/xbox/xbox-game-studios.html",
         "articles/xbox/xbox.html",
-        "articles/xbox/xbox-game-studios.html"
+        "articles/xbox/xbox-360.html",
+        "articles/xbox/xbox-one.html",
+        "articles/xbox/xbox-series.html",
     ]],
     ["Sony", [
-        "articles/xbox/xbox.html",
-        "articles/xbox/xbox-game-studios.html"
-    ]]
+        "articles/sony/sony-computer-ent.html",
+        "articles/sony/ps-1.html",
+        "articles/sony/ps-2.html",
+        "articles/sony/ps-3.html",
+        "articles/sony/ps-4.html",
+        "articles/sony/ps-5.html",
+        "articles/sony/sony_portable.html",
+    ]],
 ];

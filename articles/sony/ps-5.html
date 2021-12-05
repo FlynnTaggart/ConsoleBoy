@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>PlayStation 5</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">PlayStation 5</h1>
+                <h3 class="article_description">Революция или просто SSD?</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/sony/ps_5.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_5_all.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_5_games.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        PlayStation 5 — игровая приставка, разработанная и выпускаемая японской компанией Sony Interactive Entertainment.
+                    </p>
+                    <p>
+                        Старт продаж состоялся 12 ноября 2020 года в США, Канаде, Мексике, Южной Корее, Японии, Австралии и Новой Зеландии, а 19 ноября 2020 года и в остальных регионах.
+                    </p>
+                    <p>
+                        Разработка была официально подтверждена в октябре 2018 года, а первые подробности появились в апреле 2019 года. Название PlayStation 5 официально было озвучено лишь в октябре 2019 года, до этого устройство обозначалось просто как «консоль следующего поколения». В отличие от своей предшественницы, PlayStation 5 вместо жёсткого диска использует модифицированный твердотельный накопитель (SSD) — включающий алгоритм сжатия и декомпрессии Oodle Kraken и систему кодирования текстур Oodle Texture. Новая подсистема ввода/вывода позволяет значительно улучшить общую производительность консоли. Также SSD теперь может быть использован в качестве виртуальной ОЗУ — таким образом PS5 располагает большим объёмом оперативной памяти, нежели заявленные 16 ГБ. Устройство включает кастомный APU от AMD, который поддерживает технологию трассировки лучей, вывод изображения с разрешением 4K и частотой кадров до 120 Гц.
+                    </p>
+                    <p>
+                        Главным конкурентом PlayStation 5 среди игровых платформ стала приставка из серии Xbox от Microsoft — Xbox Series.
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        22 мая 2018 года во время официального мероприятия Sony для инвесторов на тот момент президент и генеральный директор Sony Interactive Entertainment Джон Кодера в интервью The Wall Street Journal предположил, что «следующий большой скачок для бренда PlayStation состоится не ранее марта 2021 года». В октябре 2018 года в интервью британской газете Financial Times президент корпорации Sony Кэнъитиро Ёсида на фоне усиливающихся слухов о PlayStation 5 подтвердил факт разработки приставки нового поколения. Менее чем через полгода, 16 апреля 2019 года, в эксклюзивном интервью американскому журналу Wired ведущий архитектор Марк Черни раскрыл первые подробности о новом поколении PlayStation. По его словам, разработка на тот момент велась уже около четырёх лет, и Sony начала предоставлять девкиты отдельным игровым студиям.
+                    </p>
+                    <p>
+                        В то же время, в ежедневной тайваньской газете DigiTimes было сообщено, что, согласно её отраслевым источникам, производство отдельных компонентов будущей консоли должно начаться в третьем квартале 2020 года.
+                    </p>
+                    <p>
+                        В июне 2019 года генеральный директор Sony Interactive Entertainment Джим Райан в интервью сайту CNET заявил, что приставка сможет выводить на экран изображение с разрешением 4K и кадровой частотой 120 Гц. Позднее, в октябре, Джим Райан официально подтвердил название новой приставки как PlayStation 5. Добавив, что поступление в продажу планируется в конце 2020 года на предпраздничный сезон. 7 января 2020 года Sony представила на выставке CES 2020 официальный логотип PS5.
+                    </p>
+                    <p>
+                        11 июня 2020 года состоялась презентация первых эксклюзивных игр для PlayStation 5. Был показан дизайн приставки и некоторых аксессуаров к ней. 17 сентября 2020 состоялась большая конференция Sony, где официально представили приставку и назвали даты поступления в продажу: 12 ноября 2020 года для США, Канады, Мексики, Южной Кореи, Японии, Австралии и Новой Зеландии, а 19 ноября 2020 года для всего остального мира.
+                    </p>
+                    <h4>Технические характеристики</h4>
+                    <p>
+                        <ul>
+                            <li>Процессор: 	модифицированный AMD Ryzen 3-го поколения на базе 7-нм микроархитектуры Zen 2 (8-ядер/16-потоков) @ 3,5 ГГц.</li>
+                            <li>Графический процессор: 	модифицированный AMD Radeon Navi на базе 7-нм микроархитектуры RDNA 2 с поддержкой трассировки лучей</li>
+                            <li>Оперативная память: 16 ГБ (GDDR6)</li>
+                            <li>Звук: Процессор Tempest Engine</li>
+                            <li>Вес: с дисководом - 4.5 кг, без дисковода - 4 кг.</li>
+                            <li>Размеры: с дисководом - 39 х 11 х 25 см, вес 4,5 кг, Без дисковода - 39 х 9,5 х 25 см.</li>
+                        </ul>
+                    </p>
+                    <h4>Игровое подразделение Sony</h4>
+                    <ul class="links">
+                        <li><div><a href="sony-computer-ent.html">Sony Interactive Entertainment</a></div></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

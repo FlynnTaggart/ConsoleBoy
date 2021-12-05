@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>Xbox 360</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">Xbox 360</h1>
+                <h3 class="article_description">Переживая поколения</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(3 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/xbox/Xbox_360.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/xbox/Xbox_360_slim.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/xbox/xbox_360_all.png" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <p>
+                        Xbox 360 — вторая по счёту игровая приставка компании Microsoft, которая последовала за Xbox. Конкурентами Xbox 360 среди игровых платформ седьмого 
+                        поколения являются PlayStation 3 от Sony Computer Entertainment и Wii от Nintendo. Некоторые из основных функций Xbox 360 представлены довольно спорным 
+                        сервисом Xbox Live, позволяющим играть через Интернет, а также загружать разнообразный контент — видеоигры, демоверсии, трейлеры, музыку, ТВ-шоу и т. п.
+                    </p>
+                    <h4>История</h4>
+                    <p>
+                        Прежде чем выйти на рынок игровых консолей, Microsoft работала над развитием операционных систем, играми для персональных компьютеров и над разработкой 
+                        программного обеспечения. Американская компания также разрабатывала периферийные устройства для персональных компьютеров: клавиатуры, мыши, гоночные рули, 
+                        игровые манипуляторы, джойстики. В 1998 году Microsoft работала с Sega над настройкой операционной системы Windows CE для консоли Dreamcast. Три года 
+                        спустя компания представила свою первую игровую консоль Xbox. Эта приставка была основана на собственных технологиях Microsoft и заняла второе место по 
+                        продажам консолей по всему миру.                    
+                    </p>
+                    <p>
+                        Игровая приставка, известная под кодовыми названиями Xenon, Xbox 2, Xbox FS, Xbox Next и NextBox, была задумана в начале 2003 года. В феврале под 
+                        руководством вице-президента Джея Алларда начался процесс планирования, в Бельвью была проведена конференция, в которой принимали участие более чем 400 
+                        разработчиков. В то же время Питер Мур (бывший президент американского отделения Sega Enterprises) присоединился к компании. 12 августа 2003 года ATI 
+                        подписала договор на поставку графического процессора для новой консоли, о чём было объявлено через два дня.
+                     </p>
+                    <p>
+                        Xbox 360 был запущен в продажу 22 ноября 2005 года в США и Канаде, 2 декабря 2005 года в Европе и 10 декабря 2005 года в Японии. Позднее продажи начались и 
+                        в других странах. В свой первый год на рынке приставка продавалась в 36 странах. По состоянию на июнь 2010 года, существовало 41,7 миллиона приставок Xbox 360 по всему миру.
+                    </p>
+                    <p>
+                        В 2009 году на веб-сайте компьютерной тематики IGN Xbox 360 была названа шестой величайшей игровой приставкой всех времён, попав в список из 25 позиций. На крупнейшей выставке игр Electronic Entertainment Expo 2013 был представлен обновлённый дизайн Xbox 360. В момент анонса Xbox 360 S Microsoft заявила, что их консоль просуществовала только половину своего рабочего цикла и что он продолжится до 2015 года. 20 апреля 2016 года было объявлено о прекращении производства.
+                    </p>
+                    <h4>Технические характеристики</h4>
+                    <p>
+                        <ul>
+                            <li>Процессор: Xenon от IBM (архитектура PowerPC), работающих на общей тактовой частоте 3,2 ГГц.</li>
+                            <li>Графический процессор: Xenos от ATI, 10 Мбайт встроенной памяти eDRAM.</li>
+                            <li>Оперативная память: 512 Мбайт.</li>
+                            <li>Звук: 5,1-канальный Dolby Digital Surround. </li>
+                            <li>Вес:  5 кг.</li>
+                            <li>Размеры: 290×60×230 мм. </li>
+                        </ul>
+                    </p>
+                    <h4>Игровое подразделение Microsoft</h4>
+                    <ul class="links">
+                        <li><div><a href="xbox-game-studios.html">Xbox Game Studios</a></div></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>
