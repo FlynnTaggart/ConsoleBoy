@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>NES, Game Boy и SNES</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">NES, Game Boy и SNES</h1>
+                <h3 class="article_description">Легенды индустрии</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_4" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_5" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                        <label for="switch_4"></label>
+                        <label for="switch_5"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(5 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/nintendo/nes.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/nintendo/game_boy.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/nintendo/snes.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/nintendo/Virtual_Boy_system.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/nintendo/virtual_boy.jpg" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <h4>Nintendo Entertainment System</h4>
+                    <p>
+                        В 1983 году компания Nintendo выпустила в Японии свою первую 8-битную игровую приставку Family Computer (Famicom) и, как оказалось, самую успешную в то время — система в итоге заняла 90 % японского рынка. В 1985 году в США приставка вышла под названием Nintendo Entertainment System (NES). По прошествии нескольких лет после выхода NES в Америке, конкурентов у приставки в Новом Свете практически не осталось. NES была абсолютным лидером продаж. 
+                    </p>
+                    <h4>Первая модель Game Boy</h4>
+                    <p>
+                        В 1989 году на свет появилось новое изобретение инженера Гумпэя Ёкои — портативная игровая система Game Boy. Система Game Boy состояла из центрального 8-битного процессора и экрана на жидких кристаллах без подсветки, способного выводить лишь четыре оттенка серого цвета. Несмотря на технические ограничения системы, очевидные даже для того времени, многие независимые разработчики стали создавать свои игры для Game Boy. В период существования на рынке системы Game Boy такие компании, как NEC, Atari и Sega, выпускали более мощные портативные игровые системы с лучшими графическими возможностями, однако никто из них не смог поколебать безоговорочного лидерства Game Boy. Game Boy оставался популярен и в эру 16-битных приставок, но вскоре был вытеснен из этой конкуренции. Но с появлением игры Pokemon Red and Blue Game Boy вернул свою былую популярность.
+                    </p>
+                    <h4>Эра Super Nintendo Entertainment System</h4>
+                    <p>
+                        В 1990 году в Японии компания Nintendo предложила покупателю свою новую 16-битную приставку Super Famicom. Приставка поддерживала несколько режимов разрешения игрового экрана, была способна выводить наибольшее количество цветов и рисованных объектов на экраны телевизоров одновременно, а также обладала некоторыми математическими функциями для работы с трёхмерными объектами.
+                    </p>
+                    <p>
+                        Получив огромные прибыли от продаж игры Super Mario Bros. 3 в Америке, в 1991 году Nintendo выпускает в США Super Famicom под названием Super Nintendo (SNES).
+                    </p>
+                    <h4>Эра Virtual Boy</h4>
+                    <p>
+                        В 1995 году Virtual Boy стала первой игровой системой, созданной в Nintendo, которая потерпела крах как у себя на родине в Японии, так и в США, однако она была одним из самых первых VR приспособлений. Игроки, которые приобретали данный продукт от Nintendo, жаловались на неудобство игры. И хотя несколько независимых разработчиков с самого начала согласились поддержать Virtual Boy, основная же их масса посчитала этот продукт рискованным и отказалась делать игры для него. Продажи её были ничтожно малы. Ошибка с Virtual Boy привела к уходу из компании её разработчика (он же в своё время разработал систему Game Boy) Гумпэя Ёкои. 
+                    </p>
+                    <h4>Статьи по теме</h4>
+                    <ul class="links">
+                        <li><a href="nintendo.html">Nintendo</a></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

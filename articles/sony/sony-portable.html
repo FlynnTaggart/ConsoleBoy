@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../../img/favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="../../css/main.css">
+    <link rel="stylesheet" type="text/css" href="../../css/header.css">
+    <link rel="stylesheet" type="text/css" href="../../css/article.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,700;1,800&family=Racing+Sans+One&display=swap" rel="stylesheet">
+    <script src="../../js/header.js" type="text/javascript"></script>
+    <script src="../../js/image_slider.js" type="text/javascript"></script>
+    <title>Портативные консоли Sony</title>
+</head>
+<body onresize="resize_check()">
+    <header>
+        <div class="header_container">
+            <div>
+                <a class="logo" href="../../index.html"><img src="../../img/logo_white.png"></a>
+                <div class="toggle_menu" onclick="menu_button_clicked(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </div>
+            <nav>
+                <ul class="nav_list">
+                    <li><a href="../../index.html">Главная</a></li>
+                    <li><a href="../../articles.html">Статьи</a></li>
+                    <li><a href="../../random.html">Случайная статья</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content_container">
+            <article>
+                <h1 class="article_title">Портативные консоли Sony</h1>
+                <h3 class="article_description">От прекрсного к ужасному</h3>
+                <div class="image_slider">
+                    <input checked type="radio" name="switch" id="switch_1" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_2" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_3" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <input type="radio" name="switch" id="switch_4" onclick="clearInterval(rotate_timer); rotate_timer=setInterval(rotate_slider, 3000);">
+                    <div class="lables">
+                        <label for="switch_1"></label>
+                        <label for="switch_2"></label>
+                        <label for="switch_3"></label>
+                        <label for="switch_4"></label>
+                    </div>
+                    <div class="images">
+                        <!-- Change width based on images count-->
+                        <div class="images_container" style="width: calc(4 * 100%);">
+                            <div class="image_container">
+                                <img class="title_image" src="../../img/photos/sony/psp.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/psp_game.jpg" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/psp_go.png" onclick="view_image(this)">
+                            </div>
+                            <div class="image_container">
+                                <img src="../../img/photos/sony/ps_vita.png" onclick="view_image(this)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="article_text">
+                    <h4>PlayStation Portable</h4>
+                    <p>
+                        PlayStation Portable стал первой портативной игровой консолью от Sony Computer Entertainment. Анонс PSP состоялся на выставке E3 2003. Первые продажи консоли были начаты в Японии в декабре 2004 года, в Северной Америке — в марте 2005 года, в PAL-регионах продажи стартовали в сентябре 2005 года. Данная консоль впервые использовала новый запатентованный оптический носитель данных, известный как Universal Media Disc. Имеет возможность расширения встроенной флеш-памяти с помощью карт Memory Stick. Кнопки управления PSP аналогичны стационарным консолям PlayStation.
+                    </p>
+                    <p>
+                        В сентябре 2007 года вышла первая версия обновлённой портативной консоли под названием PSP-2000, также известной как PSP Slim & Lite. Новая консоль была на 33 % легче и на 19 % тоньше оригинальной модели PlayStation Portable. В 2008 году Sony выпустила вторую обновлённую версию под названием PSP-3000.
+                    </p>
+                    <p>
+                        В октябре 2009 года Sony выпустила модель PlayStation Portable Go. В отличие от предыдущих моделей, PSP Go не имеет возможности использовать накопители Universal Media Disc, вместо него в консоли было встроено 16 гигабайт флеш-памяти, которые можно увеличить до 32 гигабайт с помощью карты памяти Memory Stick Micro (M2). Также, в отличие от предыдущих моделей PSP, аккумуляторная батарея PSP Go не снимается. Устройство стало на 43 % легче самой первой портативной консоли PSP-1000, и на 16 % легче последней PSP-3000. Одним из отличий от предыдущих консолей стал и экран, который стал сдвижным. PSP Go не заменил предыдущую модель PSP-3000, обе модели производились и продавались одновременно. Из-за отсутствия возможности проигрывания дисков, все игры на PSP Go покупались и загружались из PlayStation Store. Благодаря встроенной технологии Bluetooth к PSP Go возможно подключить игровые контроллеры от PlayStation 3.
+                    </p>
+                    <p>
+                        Последней моделью на основе Playstation Portable стала PSP-E1000 — бюджетная версия PSP-3000, которая, в отличие от предыдущих моделей PSP, не оснащена Wi-Fi и стереодинамиками, они были заменены на один монодинамик. E1000 был анонсирован на Gamescom 2011.
+                    </p>
+                    <h4>PlayStation Vita</h4>
+                    <p>
+                        PlayStation Vita стала портативной консолью нового поколения от Sony. Данная консоль была официально представлена компанией 27 января 2011 года на конференции PlayStation Meeting 2011. 17 декабря 2011 года произошёл её выход в Японии, 22 февраля 2012 года — в Европе, а также в Северной и Южной Америке. PS Vita оснащена 5-дюймовым сенсорным OLED экраном, двумя аналоговыми стиками, сенсорной панелью на задней части устройства и 4-ядерным процессором ARM Cortex A9.
+                    </p>
+                    <p>
+                        Осенью 2013 года в Японии была выпущена новая модель PlayStation Vita — PCH-2000. Был обновлён дизайн устройства, консоль стала на 20 % тоньше и на 15 % легче по сравнению с оригинальной моделью, был заменён экран, а также время работы данной консоли увеличилось на час.
+                    </p>
+                    <p>
+                        Поддержка PS Vita была прекращена в марте 2019 года. Джим Райан, один из руководителей Sony Interactive Entertainment, впоследствии заявил, что Sony не намерена продолжать заниматься рынком портативных игровых консолей. Часто можно услышать, что PS Vita — главный провал PlayStation.                 
+                    </p>
+                    <h4>Игровое подразделение Sony</h4>
+                    <ul class="links">
+                        <li><a href="sony-computer-ent.html">Sony Interactive Entertainment</a></li>
+                    </ul>
+                </div>
+            </article>
+        </div>
+    </div>
+    <footer>
+        <address>
+            <p>Developer: <a href="https://vk.com/flynntaggart">Mikhail Shcheglov</a></p>
+            <p>GitHub: <a href="https://github.com/">FlynnTaggart</a></p>
+            <p>Address: <span id="address">Pushkina st. Kolotushkina h.</span></p>
+        </address>
+    </footer>
+    <div class="image_viewer" onclick="this.style.display='none'; rotate_timer=setInterval(rotate_slider, 3000);">
+        <span class="image_close_button"><span>&times;</span></span>
+        <img id="viewed_image">
+    </div>
+</body>
+</html>

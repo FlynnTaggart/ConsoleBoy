@@ -1,7 +1,7 @@
 // From backend
 
 let article_list = [
-    ["Xbox", [
+    ["Microsoft", [
         "articles/xbox/xbox-game-studios.html",
         "articles/xbox/xbox.html",
         "articles/xbox/xbox-360.html",
@@ -15,6 +15,10 @@ let article_list = [
         "articles/sony/ps-3.html",
         "articles/sony/ps-4.html",
         "articles/sony/ps-5.html",
-        "articles/sony/sony_portable.html",
+        "articles/sony/sony-portable.html",
+    ]],
+    ["Nintendo", [
+        "articles/nintendo/nintendo.html",
+        "articles/nintendo/nintendo-snes.html",
     ]],
 ];

@@ -262,6 +262,17 @@ article h3 {
     height: 80%;
     max-width: 95%;
     object-fit: contain;
+    animation: zoom 0.5s; 
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0.6);
+    } 
+    to {
+        transform: scale(1);
+    }
+
 }
 
 .image_close_button {

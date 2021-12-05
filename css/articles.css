@@ -17,6 +17,10 @@
     transition: all 0.5s;
 }
 
+.titled_block:last-child .article_container:last-child .article_card {
+    margin-bottom: 0;
+}
+
 .article_container {
     transition: all 0.5s;
 }
