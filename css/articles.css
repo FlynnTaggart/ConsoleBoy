@@ -30,7 +30,7 @@
 }
 
 .block_articles:hover > .article_container:not(:hover) {
-	filter: blur(5px);
+	filter: blur(3px);
 }
 
 .article_image {
