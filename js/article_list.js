@@ -1,6 +1,6 @@
 // From backend
 
-let article_list = [
+const article_list = [
     ["Microsoft", [
         "articles/xbox/xbox-game-studios.html",
         "articles/xbox/xbox.html",
@@ -22,3 +22,11 @@ let article_list = [
         "articles/nintendo/nintendo-snes.html",
     ]],
 ];
+
+const index_articles = [
+    "articles/sony/ps-1.html",
+    "articles/sony/ps-5.html",
+    "articles/xbox/xbox-series.html",
+    "articles/nintendo/nintendo.html",
+    "articles/sony/ps-2.html",
+]

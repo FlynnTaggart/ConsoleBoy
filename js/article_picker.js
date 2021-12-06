@@ -1,5 +1,4 @@
 window.onload = function () {
-    console.log(article_list);
     for(var i = 0; i < article_list.length; i++){
         var article_block = document.createElement("div");
         article_block.setAttribute("class", "titled_block");
